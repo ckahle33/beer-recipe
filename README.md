@@ -6,7 +6,7 @@ blaze, run
 
 then run 
 
-`browserify --extension=.jsx -t [ reactify ] App.jsx > bundle.js`
+`browserify --extension=.jsx -t [ reactify ] App.jsx > bundle.js` from `/scripts` dir.
 
 after every save to compile the code into modules. Gulp is a good tool to automate this command after every save. Now you can `npm install anyModule` and use:
 
